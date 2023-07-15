@@ -1,7 +1,7 @@
 const express = require('express');
 require('./models/User');
 require('./services/passport');
-
+require('./models/User');
 const mongoose = require('mongoose');
 const authRoutes = require('./routes/authRoutes');
 const connectDB = require('./config/db');
